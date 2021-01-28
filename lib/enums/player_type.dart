@@ -1,0 +1,1 @@
+enum WinnerType { nome, player1, player2 }
