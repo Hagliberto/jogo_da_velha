@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:jogo_da_velha/controllers/game_controller.dart';
 import 'package:jogo_da_velha/core/constants.dart';
-import 'package:jogo_da_velha/enums/Player_Type.dart';
-import 'package:jogo_da_velha/enums/Player_type.dart';
+import 'package:jogo_da_velha/enums/player_type.dart';
+import 'package:jogo_da_velha/enums/winner_type.dart';
 import 'package:jogo_da_velha/widgets/custom_dialog.dart';
-
 
 class GamePage extends StatefulWidget {
   @override
@@ -102,8 +101,7 @@ class _GamePageState extends State<GamePage> {
 
   _checkWinner() {
     var winner = _controller.checkWinner();
-    var winnerType = WinnerType;
-        if (winner == winnerType.nome) {
+    if (winner == WinnerType.none) {
       if (!_controller.hasMoves) {
         _showTiedDialog();
       } else if (_controller.isSinglePlayer &&

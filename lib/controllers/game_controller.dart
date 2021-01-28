@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:jogo_da_velha/core/constants.dart';
 import 'package:jogo_da_velha/core/winner_rules.dart';
-import 'package:jogo_da_velha/enums/Player_Type.dart';
+import 'package:jogo_da_velha/enums/player_type.dart';
 import 'package:jogo_da_velha/enums/winner_type.dart';
 import 'package:jogo_da_velha/models/board_tile.dart';
 

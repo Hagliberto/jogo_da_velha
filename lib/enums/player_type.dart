@@ -1,1 +1,1 @@
-enum PlayerType { player1, player2 }
+enum PlayerType { none, player1, player2 }
