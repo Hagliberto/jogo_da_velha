@@ -1,6 +1,7 @@
 # jogo_da_velha
 
 A new Flutter project.
+Esse projeto é um teste de aplicação mobile para treinar com o github
 
 ## Getting Started
 
