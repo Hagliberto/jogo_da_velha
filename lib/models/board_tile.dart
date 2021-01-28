@@ -4,7 +4,7 @@ class BoardTile {
   final int id;
   String symbol;
   Color color;
-  boll enable;
+  bool enable;
 
   BoardTile(
     this.id, {
